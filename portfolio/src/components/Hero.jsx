@@ -1,3 +1,6 @@
+import photoCv from "../assets/photo_cv.JPG";
+import cvPdf from "../assets/PELAGIE_AINTANGAR_CV.pdf";
+
 function Hero() {
   return (
     <section id="accueil" className="hero">
@@ -26,7 +29,7 @@ function Hero() {
           </a>
 
           <a
-            href="/assets/PELAGIE-AINTANGAR-CV.pdf"
+            href={cvPdf}
             target="_blank"
             rel="noopener noreferrer"
             className="secondary-button"
@@ -58,7 +61,7 @@ function Hero() {
 
         <div className="image-circle">
           <img
-            src="/images/profil.jpg"
+            src={photoCv}
             alt="Portrait de Pélagie"
           />
         </div>

@@ -10,13 +10,19 @@ on:
     branches:
       - main
 
+
 jobs:
 
-  test:
-    name: Tests
+  # =========================
+  # QUALITY
+  # =========================
+
+  quality:
+    name: Quality
     runs-on: ubuntu-latest
 
     steps:
+
       - name: Récupérer le code
         uses: actions/checkout@v4
 
@@ -29,15 +35,26 @@ jobs:
       - name: Installer les dépendances
         run: npm ci
 
+      - name: Vérifier le code
+        run: npm run lint
+
+      - name: Lancer les tests
+        run: npm test
+
       - name: Vérifier le build
         run: npm run build
 
+
+  # =========================
+  # SECURITY
+  # =========================
 
   security:
     name: Security
     runs-on: ubuntu-latest
 
     steps:
+
       - name: Récupérer le code
         uses: actions/checkout@v4
 
@@ -54,15 +71,20 @@ jobs:
         run: npm audit --audit-level=high
 
 
+  # =========================
+  # DOCKER
+  # =========================
+
   docker:
     name: Docker Build
     runs-on: ubuntu-latest
 
     needs:
-      - test
+      - quality
       - security
 
     steps:
+
       - name: Récupérer le code
         uses: actions/checkout@v4
 

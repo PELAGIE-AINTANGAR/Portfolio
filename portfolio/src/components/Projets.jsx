@@ -1,17 +1,50 @@
+import taskflow from "../assets/taskflow.png";
+import taskforge from "../assets/taskforge.png";
 const projects = [
   {
     title: "HealthSync",
     description:
       "Application web de gestion et de suivi médical permettant de gérer les patients, les médecins et les rendez-vous.",
     technologies: ["Node.js", "PostgreSQL", "API REST"],
-    image: "/images/healthsync.png",
+    image: taskforge,
+  },
+  {
+    title: "TaskFlow",
+    description:
+      "Application web de gestion de projet inspirée de la méthode Kanban, permettant aux équipes de créer, organiser et suivre leurs User Stories et leurs tâches.",
+    technologies: [
+      "React",
+      "Node.js",
+      "PostgreSQL",
+      "Docker",
+      "GitHub Actions",
+      "CI/CD",
+    ],
+    image: taskflow,
   },
   {
     title: "TaskForge",
     description:
       "Application web de gestion de tâches développée avec une architecture frontend/backend et une chaîne CI/CD.",
     technologies: ["React", "Node.js", "Docker", "CI/CD"],
-    image: "/images/taskforge.png",
+    image: taskforge,
+  },
+
+  {
+    title: "DevOps Foundations",
+    description:
+      "Projet cloud-native simulant une infrastructure proche de la production avec une architecture microservices, Docker Compose, Traefik, HTTPS, réseaux isolés et CI/CD.",
+    technologies: [
+      "Docker",
+      "Docker Compose",
+      "Traefik",
+      "Node.js",
+      "PostgreSQL",
+      "Redis",
+      "GitHub Actions",
+      "HTTPS",
+    ],
+    image: taskflow,
   },
 ]
 

@@ -22,7 +22,7 @@ function About() {
             </h2>
 
             <p className="about-highlight">
-              Je suis actuellement en Master 1 Développement Web Full Stack
+              Je suis actuellement en Master 2 Développement Web Full Stack
               à La Plateforme et je recherche une alternance en développement web.
             </p>
 

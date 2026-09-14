@@ -1,4 +1,4 @@
-import { useState } from 'react'
+
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Technologies from "./components/Technologies";
@@ -12,7 +12,6 @@ import './index.css'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
