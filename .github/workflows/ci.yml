@@ -105,11 +105,11 @@ jobs:
       - name: Construire l'image Docker
         run: |
           docker build \
-            -t ghcr.io/${{ github.repository_owner }}/portfolio:latest \
-            -t ghcr.io/${{ github.repository_owner }}/portfolio:${{ github.sha }} \
+            -t ghcr.io/pelagie-aintangar/portfolio:latest \
+            -t ghcr.io/pelagie-aintangar/portfolio:${{ github.sha }} \
             .
 
       - name: Publier l'image sur GHCR
         run: |
-          docker push ghcr.io/${{ github.repository_owner }}/portfolio:latest
-          docker push ghcr.io/${{ github.repository_owner }}/portfolio:${{ github.sha }}
+          docker push ghcr.io/pelagie-aintangar/portfolio:latest
+          docker push ghcr.io/pelagie-aintangar/portfolio:${{ github.sha }}
