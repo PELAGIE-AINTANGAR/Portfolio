@@ -15,13 +15,13 @@ const projects = [
     ],
     image: taskflow,
   },
-  {
-    title: "HealthSync",
-    description:
-      "Application web de gestion et de suivi médical permettant de gérer les patients, les médecins et les rendez-vous.",
-    technologies: ["Node.js", "PostgreSQL", "API REST"],
-    // image: taskforge,
-  },
+  // {
+  //   title: "HealthSync",
+  //   description:
+  //     "Application web de gestion et de suivi médical permettant de gérer les patients, les médecins et les rendez-vous.",
+  //   technologies: ["Node.js", "PostgreSQL", "API REST"],
+  //   // image: taskforge,
+  // },
  
   {
     title: "TaskForge",
@@ -31,22 +31,22 @@ const projects = [
     image: taskforge,
   },
 
-  {
-    title: "DevOps Foundations",
-    description:
-      "Projet cloud-native simulant une infrastructure proche de la production avec une architecture microservices, Docker Compose, Traefik, HTTPS, réseaux isolés et CI/CD.",
-    technologies: [
-      "Docker",
-      "Docker Compose",
-      "Traefik",
-      "Node.js",
-      "PostgreSQL",
-      "Redis",
-      "GitHub Actions",
-      "HTTPS",
-    ],
-    // image: taskflow,
-  },
+  // {
+  //   title: "DevOps Foundations",
+  //   description:
+  //     "Projet cloud-native simulant une infrastructure proche de la production avec une architecture microservices, Docker Compose, Traefik, HTTPS, réseaux isolés et CI/CD.",
+  //   technologies: [
+  //     "Docker",
+  //     "Docker Compose",
+  //     "Traefik",
+  //     "Node.js",
+  //     "PostgreSQL",
+  //     "Redis",
+  //     "GitHub Actions",
+  //     "HTTPS",
+  //   ],
+  //   // image: taskflow,
+  // },
 ]
 
 function Projects() {
