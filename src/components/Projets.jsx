@@ -1,14 +1,7 @@
 import taskflow from "../assets/taskflow.png";
 import taskforge from "../assets/taskforge.png";
 const projects = [
-  {
-    title: "HealthSync",
-    description:
-      "Application web de gestion et de suivi médical permettant de gérer les patients, les médecins et les rendez-vous.",
-    technologies: ["Node.js", "PostgreSQL", "API REST"],
-    // image: taskforge,
-  },
-  {
+   {
     title: "TaskFlow",
     description:
       "Application web de gestion de projet inspirée de la méthode Kanban, permettant aux équipes de créer, organiser et suivre leurs User Stories et leurs tâches.",
@@ -22,6 +15,14 @@ const projects = [
     ],
     image: taskflow,
   },
+  {
+    title: "HealthSync",
+    description:
+      "Application web de gestion et de suivi médical permettant de gérer les patients, les médecins et les rendez-vous.",
+    technologies: ["Node.js", "PostgreSQL", "API REST"],
+    // image: taskforge,
+  },
+ 
   {
     title: "TaskForge",
     description:

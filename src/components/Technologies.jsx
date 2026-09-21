@@ -4,10 +4,16 @@ const technologies = [
   "JavaScript",
   "React",
   "Node.js",
+  "PHP",
   "PostgreSQL",
+  "MySQL",
   "Docker",
   "Git",
   "GitHub Actions",
+  "API REST",
+  "CI/CD",
+  "Kubernetes",
+  "Bootstrap",
 ]
 
 function Technologies() {
@@ -25,11 +31,16 @@ function Technologies() {
                 {technology === "CSS3" && "🎨"}
                 {technology === "JavaScript" && "JS"}
                 {technology === "React" && "⚛️"}
+                {technology === "Bootstrap" && "📦"}
+                {technology === "PHP" && "🐘"}
                 {technology === "Node.js" && "🟢"}
                 {technology === "PostgreSQL" && "🐘"}
                 {technology === "Docker" && "🐳"}
                 {technology === "Git" && "🔀"}
-                {technology === "GitHub Actions" && "⚙️"}
+                {technology === "GitHub Actions" && "⚙️"};
+                {technology === "API REST" && "🔗"}
+                {technology === "CI/CD" && "🚀"}
+                {technology === "Kubernetes" && "☸️"}
               </div>
 
               <span>{technology}</span>
