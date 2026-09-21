@@ -6,7 +6,7 @@ const projects = [
     description:
       "Application web de gestion et de suivi médical permettant de gérer les patients, les médecins et les rendez-vous.",
     technologies: ["Node.js", "PostgreSQL", "API REST"],
-    image: taskforge,
+    // image: taskforge,
   },
   {
     title: "TaskFlow",
@@ -44,7 +44,7 @@ const projects = [
       "GitHub Actions",
       "HTTPS",
     ],
-    image: taskflow,
+    // image: taskflow,
   },
 ]
 

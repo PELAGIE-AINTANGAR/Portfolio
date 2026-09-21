@@ -2,17 +2,17 @@ const skillCategories = [
   {
     title: "Frontend",
     description: "Création d'interfaces web modernes et responsives.",
-    skills: ["HTML5", "CSS3", "JavaScript", "React"],
+    skills: ["HTML5", "CSS3", "JavaScript", "React", "Bootstrap", "angular(base)"],
   },
   {
     title: "Backend",
     description: "Développement d'API et logique métier.",
-    skills: ["Node.js", "Express", "API REST"],
+    skills: ["Node.js", "Express", "PHP", "API REST"],
   },
   {
     title: "Bases de données",
     description: "Conception et manipulation de données.",
-    skills: ["PostgreSQL", "SQL"],
+    skills: ["PostgreSQL", "SQL", "MySQL"],
   },
   {
     title: "DevOps",

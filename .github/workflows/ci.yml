@@ -113,3 +113,8 @@ jobs:
         run: |
           docker push ghcr.io/pelagie-aintangar/portfolio:latest
           docker push ghcr.io/pelagie-aintangar/portfolio:${{ github.sha }}
+
+  # =========================
+  # KUBERNETES
+  # =========================
+    
